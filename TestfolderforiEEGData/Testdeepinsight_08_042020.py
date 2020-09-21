@@ -9,7 +9,7 @@ import h5py
 import numpy as np
 #tf.device("/GPU:0")
 ##end of selecting packaegs to analyse
-
+##test for upload
 print(tf.test.is_gpu_available())
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
